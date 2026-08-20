@@ -14,7 +14,7 @@ Traditional models often treat student data as a static snapshot and miss the te
 
 ## Dataset
 
-OULAD: 7 modules, over 32,000 students. The core file is `studentVle.csv`, which logs every click a student makes on the Virtual Learning Environment, joined with `studentInfo.csv` for demographics and the target label. Final result "Fail" or "Withdrawn" is mapped to dropout (1), "Pass" or "Distinction" to non dropout (0).
+OULAD: 7 modules, over 32,000 students. The core file is `studentVle.csv`, which logs every click a student makes on the Virtual Learning Environment, joined with `studentInfo.csv` for demographics and the target label. Final result "Fail" or "Withdrawn" is mapped to dropout (1), "Pass" or "Distinction" to non dropout (0). (link: https://www.kaggle.com/datasets/anlgrbz/student-demographics-online-education-dataoulad)
 
 ## Workflow
 
