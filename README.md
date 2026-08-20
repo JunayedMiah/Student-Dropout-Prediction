@@ -1,4 +1,4 @@
-# Student Dropout Prediction using Sequential Data (OULAD)
+# Student Dropout Prediction using Sequential Data (OULAD) 
 
 Predicting student dropout before a course ends, by treating Virtual Learning Environment clickstream activity as a time series rather than a static snapshot. Built on Databricks, comparing an LSTM against a Transformer on the same task.
 
