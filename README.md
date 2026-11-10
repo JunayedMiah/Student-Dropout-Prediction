@@ -46,7 +46,7 @@ Logged hyperparameters, training and validation loss curves, and final metrics f
 | Accuracy | 73.50% | 72.90% |
 | Precision | 78.59% | 78.03% |
 | Recall | 61.22% | 61.22% |
-| F1 Score | 68.83% | 68.61% |
+| F1 Score | 69.32% | 68.61% |
 
 **LSTM confusion matrix**
 
