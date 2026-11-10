@@ -64,7 +64,7 @@ Logged hyperparameters, training and validation loss curves, and final metrics f
 
 ## Key Insights
 
-Both architectures landed in almost the same place, F1 Score 68.83% for LSTM versus 68.61% for Transformer, and identical Recall (61.22%) on both. Neither model has a clear accuracy edge over the other on this dataset.
+Both architectures landed in almost the same place, F1 Score 69.32% for LSTM versus 68.61% for Transformer, and identical Recall (61.22%) on both. Neither model has a clear accuracy edge over the other on this dataset.
 
 **LSTM was chosen as the production model**, for two practical reasons rather than a raw performance win: it edges out the Transformer slightly on F1 Score, and it trains noticeably faster and cheaper than the attention heavy Transformer. At 32,000 students, the extra representational capacity of a Transformer does not pay for its added compute cost. This is the kind of tradeoff worth stating directly rather than defaulting to whichever architecture sounds more advanced.
 
